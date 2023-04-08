@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* utility classes */
+
+.container{
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+}
+
+
+/* navbar styling */
+
+/* for desktop mode  */
+
+.navbar-container input[type="checkbox"],
+.navbar-container .hamburger-lines{
+    display: none;
+}
+
+.navbar{
+    box-shadow: 0px 5px 10px 3px #aaa;
+    position: fixed;
+    width: 100%;
+    opacity: 0.85;
+    z-index: 999;
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items{
+    order: 3;
+    display: flex;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.4s ease-in-out;
+}
+
+.navbar a:hover{
+    color: #117964;
+}
+
+.logo{
+    order: 2;
+    font-size: 3rem;
+}
