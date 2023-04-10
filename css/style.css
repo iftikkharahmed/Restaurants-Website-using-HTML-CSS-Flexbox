@@ -319,3 +319,49 @@ body{
     color: #117964;
     font-weight: 700;
 }
+
+/* testimonial styling  */
+
+#testimonials{
+    padding: 5rem 0;
+    background-color: #d6d5d5;
+}
+
+.testimonial-title{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #555;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.testimonial-box .checked{
+    color: #ff9529;
+}
+
+.testimonial-box .testimonial-text{
+    margin: 1rem 0;
+    color: #444;
+}
+
+.testimonial-box{
+    text-align: center;
+    padding: 1rem;
+}
+
+.customer-photo img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+}
